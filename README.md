@@ -18,6 +18,7 @@ you will also need to pip install selenium (make sure it is installed within whi
 Lines you will have to change:
 
 line 24 my_password = 'Your_password_here'
+
 line 31 driver.get('https://www.twitter.com/NAMEOFPROFILETOSCRAPE')
 
 
