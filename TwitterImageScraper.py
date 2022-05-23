@@ -5,6 +5,8 @@ from selenium import webdriver
 import re
 import urllib.request
 
+#test comment 
+
 def get_tweet_data(card):
     """extract data from tweet"""  
     url = card.find_element_by_xpath('.//img[@alt="Image"]').get_attribute('src')
